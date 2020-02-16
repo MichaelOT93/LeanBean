@@ -1,0 +1,164 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Montserrat';
+}
+
+
+.topnav {
+
+	overflow: hidden;
+	width: 100%;
+	height: 100px;
+	background-color: #FF6800;
+	z-index: +1;
+	position: sticky;
+	top: 0;
+}
+
+.topnav img {
+	float: left;
+	width: 5%;
+	height: 60px;
+	padding: 20px 30px;
+}
+	
+
+.topnav a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	padding: 20px 30px;
+	font-size: 20px;
+	transition: 0.3s ease-in-out;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	
+	
+}
+
+.topnav a:hover {
+	
+	background-color: #8E44AD;
+	
+}
+
+.topnav a.active {
+	
+	background-color: #2EE97F;
+	
+}
+
+.heroImage {
+	margin-top: 0;
+	height: 600px;
+	background-color: salmon;
+	background-image: url("CoffBeans.jpg");
+	background-size: cover;
+	z-index: -1;
+	
+}
+
+
+
+
+.heroImage a {
+	text-decoration: none;
+	color: white;
+	background-color: #FF6800;
+	padding: 5px 15px;
+	float: left;
+	text-align: center;
+	position: relative;
+	left: 60%;
+	top: 180px;
+	font-size: 25px;
+	font-weight: 400;
+	transition: 0.3s ease-in-out;
+	
+}
+
+.heroImage h2 {
+	
+	color: white;
+	position: relative;
+	right: 15%;
+	top: 200px;
+	font-size: 50px;
+	margin: auto;
+	width: 50%;
+}
+
+.heroImage h3 {
+	
+	color: white;
+	position: relative;
+	right: 15%;
+	top: 190px;
+	font-size: 35px;
+	margin: auto;
+	width: 50%;
+}
+
+.heroImage a:hover {
+	background-color: #8E44AD;
+}
+
+.whoWeAre {
+	height: 300px;
+	background-color: #8E44AD;
+	width: 100%;
+	float: left;
+	clear: both;
+	
+}
+
+.whoWeAre p {
+	text-align: center;
+	color: white;
+	width: 40%;
+	position: relative;
+	left: 30%;
+	
+	
+	
+}
+
+.whoWeAre h2 {
+	
+	text-align: center;
+	color: white;
+	position: relative;
+	
+}
+	
+
+.testimonial {
+	clear: both;
+	float: left;
+	background-color: #2EE97F;
+	width: 65%;
+	height: 400px;
+}
+
+.social {
+	display: inline;
+	float: right;
+	background-color: #8E44AD;
+	width: 35%;
+	height: 400px;
+	
+}
+
+.footer {
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+}
+	
+
+
